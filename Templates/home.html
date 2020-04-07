@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  background-image: url('https://travelupdate.boardingarea.com/wp-content/uploads/2018/12/bigstock-Travel-Inspirational-And-Motiv-199057165-1280x640.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
+.button {
+  background-color: #555555; 
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+</style>
+<body>
+<h2><font size="5" color="white"><u> Select the Country to visit </u></font></h2> 
+<form id="select" action="/select" method="POST" enctype="multipart/form-data" position:center-left>
+    <br>
+    <select id="mySelect" name = "country">
+      <option value="Australia">Australia(Canberra)</option>
+      <option value="Spain">Spain(Madrid)</option>
+	  <option value="United States of America"> United States of America(Washington D.C)</option>
+      
+    </select>
+	
+	<button class="button button" type="submit" value="Submit">Submit</button>
+  </form>
+
+</body>
+</html>
